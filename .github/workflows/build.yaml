@@ -19,11 +19,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: linux packages
-        if: ${{ matrix.os == 'ubuntu-latest' }}
-        run: |
-          sudo apt-get update
-          sudo apt install libasound2-dev libavcodec-dev libavformat-dev libavutil-dev libgl-dev libgtk-3-dev libpango1.0-dev libxtst-dev
+#      - name: linux packages
+#        if: ${{ matrix.os == 'ubuntu-latest' }}
+#        run: |
+#          sudo apt-get update
+#          sudo apt install libasound2-dev libavcodec-dev libavformat-dev libavutil-dev libgl-dev libgtk-3-dev libpango1.0-dev libxtst-dev
 
       - name: Checkout the repository
         uses: actions/checkout@v6
