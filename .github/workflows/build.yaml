@@ -38,7 +38,6 @@ jobs:
         shell: bash
         run: |
           mvn clean package -Pnative native:compile-no-fork
-#          java -agentlib:native-image-agent=config-output-dir=${project.basedir}/src/main/resources/META-INF/native-image -jar ./target/native-jpa-1.0.0-SNAPSHOT.jar
           ls target
           ./target/native-jpa
           sleep 60
