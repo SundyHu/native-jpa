@@ -4,6 +4,8 @@ spring:
   application:
     name: native-jpa
   jpa:
+    default:
+      compile-time-hibernate-proxies: true
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy

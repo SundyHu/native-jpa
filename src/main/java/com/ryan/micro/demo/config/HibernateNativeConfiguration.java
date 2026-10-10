@@ -1,5 +1,6 @@
 package com.ryan.micro.demo.config;
 
+import org.hibernate.bytecode.internal.bytebuddy.BytecodeProviderImpl;
 import org.hibernate.bytecode.spi.BytecodeProvider;
 import org.springframework.aot.hint.MemberCategory;
 import org.springframework.aot.hint.RuntimeHints;
@@ -17,7 +18,7 @@ public class HibernateNativeConfiguration {
         @Override
         public void registerHints(RuntimeHints hints, ClassLoader classLoader) {
             Stream.of(
-                    BytecodeProvider.class
+                    BytecodeProviderImpl.class
             ).forEach(x -> hints.reflection().registerType(x, MemberCategory.values()));
 
         }
