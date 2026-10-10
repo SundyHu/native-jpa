@@ -15,8 +15,6 @@ spring:
       hibernate:
         highlight_sql: true
         format_sql: true
-        bytecode:
-          provider: bytebuddy
     open-in-view: false
 logging:
   level:
