@@ -77,8 +77,7 @@
                 <artifactId>native-maven-plugin</artifactId>
                 <configuration>
                     <buildArgs combine.children="append">
-                        <buildArg>--initialize-at-build-time= org.hibernate.bytecode.internal.none.BytecodeProviderImpl</buildArg>
-                        <buildArg>--initialize-at-run-time=net.bytebuddy,org.hibernate.bytecode.internal.bytebuddy</buildArg>
+                       
                     </buildArgs>
                 </configuration>
             </plugin>
