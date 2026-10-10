@@ -13,6 +13,8 @@ spring:
       hibernate:
         highlight_sql: true
         format_sql: true
+        bytecode:
+          provider: none
     open-in-view: false
 logging:
   level:
