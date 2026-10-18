@@ -89,9 +89,7 @@
                             <goal>enhance</goal>
                         </goals>
                         <configuration>
-                            <enableLazyInitialization>true</enableLazyInitialization>
                             <enableDirtyTracking>true</enableDirtyTracking>
-                            <enableAssociationManagement>true</enableAssociationManagement>
                         </configuration>
                     </execution>
                 </executions>

@@ -1,6 +1,6 @@
 package com.ryan.micro.demo.config;
 
-import org.hibernate.bytecode.internal.none.BytecodeProviderImpl;
+import org.hibernate.bytecode.internal.bytebuddy.BytecodeProviderImpl;
 import org.springframework.aot.hint.MemberCategory;
 import org.springframework.aot.hint.RuntimeHints;
 import org.springframework.aot.hint.RuntimeHintsRegistrar;
