@@ -41,6 +41,11 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-graalvm</artifactId>
+            <version>6.6.5.Final</version>
+        </dependency>
 
 
         <dependency>
